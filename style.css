@@ -123,4 +123,8 @@ footer{
 .show{
     display: block;
 }
-  
+@media (max-width: 350px){  
+  .container{
+    max-width:350px;
+  }
+}
