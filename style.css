@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark: hsl(216, 12%, 8%);
+  --orange: hsl(25, 97%, 53%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: 'Overpass' sans-serif;
+    background-color: var(--very-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: hsl(215, 24%, 14%);
+    max-width: 360px;
+    text-align: left;
+    padding: 1.8rem;
+    border-radius: 25px;
+}
+
+.star-icon{
+    background-color: var(--very-dark);
+    padding: 1rem;
+    border-radius: 50%;
+}
+h2{
+    padding-top: 20px;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
+}
+p{
+    padding-top: 15px;
+    color: var(--white);
+    font-size: 15px;
+}
+ul{
+    padding-top: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rating{
+    width: 50px;
+    height: 50px;
+    background-color: var(--dark-blue);
+    color: var(--medium-grey);
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    margin-right: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.rating:hover{
+    background-color: var(--medium-grey);
+    color: var(--white);
+    transition: ease-out 0.3s;
+}
+.rating:active, .active{
+    background-color: var(--orange);
+    color: var(--white);
+    transition: ease-out 0.3s;
+  }
+.submit-btn{
+    width: 100%;
+    height: 45px;
+    border: 0;
+    font-size: 15px;
+    color: var(--white);
+    background-color: var(--orange);
+    border-radius: 25px;
+    letter-spacing: 2px;
+}
+.submit-btn:hover{
+    background-color: var(--white);
+    color: var(--orange);
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+.select {
+    display: inline-block;
+    background-color: var(--dark-blue);
+    padding: 0.5rem;
+    margin: 1.5rem 0;
+    color: var(--orange);
+    border-radius: 25px;
+  }
+#tittle{
+    padding-top: 10px;
+}  
+footer{
+    position: absolute;
+    bottom: 0;
+}
+.thank-you {
+    text-align: center;
+  }
+.first{
+    display:block;
+}
+.second{
+    display: none;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+  
