@@ -16,7 +16,7 @@
 }
 
 body{
-    font-family: 'Overpass' sans-serif;
+    font-family: 'Overpass', sans-serif;
     background-color: var(--very-dark);
     display: flex;
     justify-content: center;
