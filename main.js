@@ -19,7 +19,7 @@ submitBtn.addEventListener('click', rateHandler)
 
 function rateHandler() {
     if(rates === 0){
-            alert("Please rate us")
+            
     }
     else {
       selected.innerText = rates;
